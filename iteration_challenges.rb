@@ -14,7 +14,6 @@ cart_item_prices.each do |final|
 end
 
 expensive_array = [ ]
-item_number = [ ]
 count = 1
 cart_item_prices.each do |expensive|
   if expensive > 15
@@ -22,7 +21,6 @@ cart_item_prices.each do |expensive|
   end
   count += 1
 end
-puts item_number
 
 puts "Expensive items: #{expensive_array}" 
 
