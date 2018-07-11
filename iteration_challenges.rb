@@ -23,6 +23,4 @@ cart_item_prices.each do |expensive|
 end
 end
 
-puts expensive_array
-
-# puts "Expensive items: #{expensive_array}" 
+puts "Expensive items: #{expensive_array}" 
