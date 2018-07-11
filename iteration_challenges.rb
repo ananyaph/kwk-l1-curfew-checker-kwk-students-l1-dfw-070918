@@ -50,7 +50,7 @@ puts "Your subtotal is #{subtotal}."
 final_total = 0
 
 final_price.each do |price|
-  final_price += price
+  final_total += price
 end
 
 puts "Your final total is #{final_total}"
