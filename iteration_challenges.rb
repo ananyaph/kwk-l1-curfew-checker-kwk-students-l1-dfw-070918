@@ -65,10 +65,11 @@ tax = final_total - subtotal
 
 puts "You gave Uncle Sam #{tax.round(2)} dollars"
 
-#
+#SPORTS ARRAY
+sports = ["basketball", "baseball", "football", "volleyball", "soccer"]
 
-
-
+sports.each do |sports|
+  puts sports
 
 
 
