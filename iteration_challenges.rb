@@ -70,6 +70,27 @@ sports = ["basketball", "baseball", "football", "volleyball", "soccer"]
 
 sports.each do |sports|
   puts sports
+end
+
+less_sports = [ ]
+sports.each do |words|
+  if words .length < 8
+    less_sports << words
+  end
+end
+
+puts less_sports
+
+
+
+
+
+
+
+
+
+
+
 
 
 
