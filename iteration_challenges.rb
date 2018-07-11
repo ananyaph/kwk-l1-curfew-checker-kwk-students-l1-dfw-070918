@@ -57,5 +57,5 @@ puts "Your final total is #{final_total}"
   
 tax = #{final_total} - #{subtotal}
 
-puts "You gave Uncle Same #{tax}"
+puts "You gave Uncle Sam #{tax} dollars"
   
