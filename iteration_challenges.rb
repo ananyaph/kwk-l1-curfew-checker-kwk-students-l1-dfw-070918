@@ -20,4 +20,7 @@ cart_item_prices.each do |expensive|
     expensive_array << expensive
   else
 end
+
+puts expensive_array
+
 end
