@@ -78,7 +78,7 @@ sports.each do |words|
     less_sports << words
   end
 end
-puts "Here is/are the word/s with less than 8 letters:"
+puts "Here are the words with less than 8 letters:"
 puts less_sports
 
 
