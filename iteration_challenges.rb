@@ -38,4 +38,13 @@ puts item_number
 
 puts "Expensive items: #{expensive_array}"
 
-subtotal_array
+
+subtotal = 0
+
+cart_item_prices.each do |price|
+  subtotal += price
+authenticate_or_request_with_http_digest
+  
+  
+  
+  
