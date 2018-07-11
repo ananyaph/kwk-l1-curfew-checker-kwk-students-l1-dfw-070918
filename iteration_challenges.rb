@@ -6,10 +6,10 @@ cart_item_prices.each do |price|
 end
 
 final_price = []
-count = 1
+count = 0
 cart_item_prices.each do |final|
   final_price[count] = (final*1.17).round(2)
-  puts "Item #{count}: #{final_price[count]}" 
+  puts "Item #{count+1}: #{final_price[count]}" 
   count += 1
 end
 
