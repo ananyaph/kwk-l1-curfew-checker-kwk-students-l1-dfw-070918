@@ -21,6 +21,6 @@ cart_item_prices.each do |expensive|
   else
 end
 
-puts expensive_array
+puts "#{expensive_array[count]} expensive_array"
 
 end
