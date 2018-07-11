@@ -43,8 +43,19 @@ subtotal = 0
 
 cart_item_prices.each do |price|
   subtotal += price
-authenticate_or_request_with_http_digest
+end
+
+puts "Your subtotal is #{subtotal}."
+
+final_total = 0
+
+final_price.each do |price|
+  final_price += price
+end
+
+puts "Your final total is #{final_total}"
   
-  
-  
+tax = #{final_total} - #{subtotal}
+
+puts "You gave Uncle Same #{tax}"
   
