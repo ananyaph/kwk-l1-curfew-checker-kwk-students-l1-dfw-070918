@@ -25,4 +25,4 @@ end
 
 puts expensive_array
 
-puts "Expensive items: #{expensive_array}" 
+# puts "Expensive items: #{expensive_array}" 
