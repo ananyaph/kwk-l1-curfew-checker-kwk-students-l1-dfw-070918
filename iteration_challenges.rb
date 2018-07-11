@@ -13,6 +13,8 @@ cart_item_prices.each do |final|
   count += 1
 end
 
+puts final_price
+
 expensive_array = [ ]
 count = 1
 cart_item_prices.each do |expensive|
