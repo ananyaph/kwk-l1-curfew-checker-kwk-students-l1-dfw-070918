@@ -22,6 +22,6 @@ cart_item_prices.each do |expensive|
   else
 end
 
-puts "Item  #{expensive_array}" 
+puts "Expensive items: #{expensive_array}" 
 
 end
