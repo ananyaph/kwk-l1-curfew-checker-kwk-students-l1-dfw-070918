@@ -15,11 +15,11 @@ end
 
 expensive_array = [ ]
 item_number = [ ]
-count = 0
+count = 1
 cart_item_prices.each do |expensive|
   if expensive > 15
     expensive_array << expensive
-    item_number = cart_item_prices[count]   
+    item_number << count
   end
   count += 1
 end
