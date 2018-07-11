@@ -36,4 +36,6 @@ cart_item_prices.each do |expensive|
 end
 puts item_number
 
-puts "Expensive items: #{expensive_array}" 
+puts "Expensive items: #{expensive_array}"
+
+subtotal_array
