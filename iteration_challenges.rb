@@ -1,3 +1,4 @@
+#LIST OF PRICES
 cart_item_prices = [12.43, 19.99, 3.49, 75.00]
 count = 1
 cart_item_prices.each do |price|
@@ -5,6 +6,7 @@ cart_item_prices.each do |price|
   count += 1
 end
 
+#PRICES WITH TAXES
 final_price = []
 count = 0
 cart_item_prices.each do |final|
@@ -15,6 +17,7 @@ end
 
 puts final_price
 
+#EXPENSIVE ITEMS ARRAY
 expensive_array = [ ]
 count = 1
 cart_item_prices.each do |expensive|
@@ -41,6 +44,7 @@ puts item_number
 puts "Expensive items: #{expensive_array}"
 
 
+#SUBTOTAL, TOTAL, AND TAX
 subtotal = 0
 
 cart_item_prices.each do |price|
