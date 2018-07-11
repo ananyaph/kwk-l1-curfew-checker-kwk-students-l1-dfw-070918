@@ -44,7 +44,7 @@ puts "Expensive items: #{expensive_array}"
 subtotal = 0
 
 cart_item_prices.each do |price|
-  subtotal += price.round
+  subtotal += price.round(2)
 end
 
 puts "Your subtotal is #{subtotal}."
@@ -52,7 +52,7 @@ puts "Your subtotal is #{subtotal}."
 final_total = 0
 
 final_price.each do |price|
-  final_total += price.round
+  final_total += price.round(2)
 end
 
 puts "Your final total is #{final_total}"
